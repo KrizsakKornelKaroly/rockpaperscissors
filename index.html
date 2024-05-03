@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kő-papír-olló</title>
+    <style>
+        img{
+            width: 150px;
+        }
+        div{
+            border: 1px solid black;
+            text-align: center;
+            width: 80%;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Kő-papír-olló</h1>
+        <h2>Válassz!</h2>
+        <img src="ko.png" alt="Kő" id="kokep" onclick="KattKo()">
+        <img src="papir.png" alt="Papír" id="papirkep" onclick="KattPapir()">
+        <img src="ollo.png"  alt="Olló" id="ollokep" onclick="KattOllo()">
+        <h2>Gép választása</h2>
+        <p id="kiiro">
+            <h1>Eredmény: </h1>
+            <h1 id="gepkepkimenet">?</h1>
+            <h3>Te pontod</h3>
+            <h3 id="jatekospontok">0</h3>
+            <h3>Gép pontja</h3>
+            <h3 id="geppontok">0</h3>
+        </p>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
