@@ -5,17 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kő-papír-olló</title>
     <style>
+        body{
+            color: green;
+            font-family: sans-serif;
+            background-color: lightgreen;
+        }
         img{
             width: 150px;
+            border-radius: 15px;
+            padding: 5px;
         }
         div{
-            border: 1px solid black;
+            border: 5px solid green;
+            border-radius: 15px;
             text-align: center;
             width: 80%;
             margin: 0 auto;
+            background-color: white;
         }
         #itelet, #iteletszov{
             display: inline;
+        }
+        @media screen and (max-width: 640px){
+            div{
+                width: 52%;
+            }
+            #itelet, #iteletszov{
+                display: block;
+            }
         }
     </style>
 </head>

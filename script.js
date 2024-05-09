@@ -31,19 +31,19 @@ function Kijeloles()
 {
     switch(valasztott){
         case "ko": 
-            koeleres.style.border = "1px solid red"; 
+            koeleres.style.border = "3px solid red"; 
             papireleres.style.border = "none";
             olloeleres.style.border = "none";
             jatekosValasztas = "ko";
             break;
         case "papir": 
-            papireleres.style.border = "1px solid red"; 
+            papireleres.style.border = "3px solid red"; 
             koeleres.style.border = "none";
             olloeleres.style.border = "none";
             jatekosValasztas = "papir";
             break;
         case "ollo": 
-            olloeleres.style.border = "1px solid red"; 
+            olloeleres.style.border = "3px solid red"; 
             koeleres.style.border = "none";
             papireleres.style.border = "none";
             jatekosValasztas = "ollo";
